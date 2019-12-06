@@ -1,0 +1,18 @@
+.index{
+  display: flex;
+  height: 88rpx;
+  line-height: 88rpx;
+  background: #fff;
+  padding-bottom: 10rpx;
+}
+.item{
+  flex: 1;
+  text-align: center;
+}
+.active{
+  color: #ff5777;
+}
+.active text{
+  border-bottom: 6rpx solid #ff5777; 
+  padding: 15rpx 16rpx;
+}

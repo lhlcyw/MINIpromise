@@ -1,0 +1,11 @@
+<view class="goods-item">
+<image class="image" src="{{item.show.img}}" mode="widthFix"/>
+<view class="desc-info">
+<view class="title">{{item.title}}</view>
+<view class="info">
+<text class="price">￥{{item.price}}</text>
+<image src="/images/asset/shoucang.png" class="icon"/>
+<text class="cfav">{{item.cfav}}</text>
+</view>
+</view>
+</view>
